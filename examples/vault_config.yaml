@@ -1,0 +1,45 @@
+kv_secrets:
+ # Site-A Secrets
+  vcenter_sa_root:
+    path: "homelab/vmware/sa/vcenter/users/root"
+    data_json:
+      vcenter_username: "root"
+      vcenter_password: "VMware123!"
+  vcenter_sa_administrator:
+    path: "homelab/vmware/sa/vcenter/users/administrator"
+    data_json:
+      vcenter_username: "administrator@vsphere.local"
+      vcenter_password: "VMware123!"
+  vcenter_sa_license:
+    path: "homelab/vmware/sa/vcenter/license"
+    data_json:
+      license_key: "xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"
+  esxi_sa_root:
+    path: "homelab/vmware/sa/esxi/users/root"
+    data_json:
+      esxi_username: "root"
+      esxi_password: "yourpassword"
+  esxi_sa_license:
+    path: "homelab/vmware/sa/esxi/license"
+    data_json:
+      license_key: "xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"
+  nsxt_sa_root:
+    path: "homelab/vmware/sa/nsxt/users/root"
+    data_json:
+      nsxt_username: "root"
+      nsxt_password: "yourpassword"
+  nsxt_sa_admin:
+    path: "homelab/vmware/sa/nsxt/users/admin"
+    data_json:
+      nsxt_username: "admin"
+      nsxt_password: "yourpassword"
+  nsxt_sa_audit:
+    path: "homelab/vmware/sa/nsxt/users/audit"
+    data_json:
+      nsxt_username: "audit"
+      nsxt_password: "yourpassword"
+  nsxt_sa_license:
+    path: "homelab/vmware/sa/nsxt/license"
+    data_json:
+      license_key: "xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"
+  
