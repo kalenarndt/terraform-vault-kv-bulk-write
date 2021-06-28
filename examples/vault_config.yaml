@@ -42,4 +42,3 @@ kv_secrets:
     path: "homelab/vmware/sa/nsxt/license"
     data_json:
       license_key: "xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"
-  

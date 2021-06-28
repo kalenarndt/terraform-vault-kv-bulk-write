@@ -24,7 +24,7 @@ Ensure that you modify the vault_config.yaml file to match the path and secrets 
 
 Place the vault_config.yaml file where your main.tf file is in your deployment or modify the usage example for the path to your yaml. 
 
-# IMPORTANT YOU SHOULD PROTECT YOUR YAML FILE AND THE TFSTATE WHEN DOING THIS. 
+# IMPORTANT: YOU SHOULD PROTECT YOUR YAML FILE AND THE TFSTATE WHEN DOING THIS. 
 ```yaml
 kv_secrets:
  # Site-A Secrets
