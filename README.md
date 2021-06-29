@@ -13,7 +13,7 @@ locals {
 }
 
 module "homelab_kv" {
-  source = "github.com/kalenarndt/terraform-vault-kv-config"
+  source = "github.com/kalenarndt/terraform-vault-kv-bulk-write"
   vault_kv_secrets = local.vault_kv_secrets
 }
 ```
