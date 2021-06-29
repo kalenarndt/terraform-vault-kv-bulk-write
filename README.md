@@ -1,5 +1,5 @@
 
-# Terraform Vault KV Config
+# Terraform Vault KV Bulk Write
 
 This Terraform module creates multiple secrets in any given kv path in a Vault instance from a yaml file.
 
