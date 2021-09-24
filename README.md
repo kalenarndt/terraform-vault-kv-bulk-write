@@ -22,7 +22,7 @@ The examples folder contains an example with a main.tf,providers.tf, settings.tf
 
 Ensure that you modify the vault_config.yaml file to match the path and secrets you would like to provision as this is what the module uses to deploy and configure the nested hosts.
 
-Place the vault_config.yaml file where your main.tf file is in your deployment or modify the usage example for the path to your yaml. 
+Place the vault_config.yaml file where your main.tf file is in your deployment or modify the usage example for the path to your yaml
 
 # IMPORTANT: YOU SHOULD PROTECT YOUR YAML FILE AND THE TFSTATE WHEN DOING THIS. 
 ```yaml
