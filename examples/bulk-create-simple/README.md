@@ -97,3 +97,32 @@ No modules.
 
 No outputs.
 <!-- END_TF_DOCS -->
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | >=2.23.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_homelab_kv"></a> [homelab\_kv](#module\_homelab\_kv) | github.com/kalenarndt/terraform-vault-kv-config | n/a |
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
