@@ -77,22 +77,20 @@ kv_secrets:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-## TF Docs Output
 --- 
 
-<!-- BEGIN_TF_DOCS -->
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_vault"></a> [vault](#requirement\_vault) | ~>2.20.0 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | >=2.23.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_vault"></a> [vault](#provider\_vault) | ~>2.20.0 |
+| <a name="provider_vault"></a> [vault](#provider\_vault) | 3.5.0 |
 
 ## Modules
 
@@ -108,9 +106,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_vault_kv_secrets"></a> [vault\_kv\_secrets](#input\_vault\_kv\_secrets) | This is a map passed from a yaml file that is looped through to build secrets at a pre-determined path. | `map(any)` | `null` | yes |
+| <a name="input_vault_kv_secrets"></a> [vault\_kv\_secrets](#input\_vault\_kv\_secrets) | This is a map passed from a yaml file that is looped through to build secrets at a pre-determined path. | `map(any)` | `null` | no |
 
 ## Outputs
 
 No outputs.
-<!-- END_TF_DOCS -->
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
